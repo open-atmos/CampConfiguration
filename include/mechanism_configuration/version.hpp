@@ -9,23 +9,23 @@ extern "C" {
 
   const char* getVersionString()
   {
-    return "@mechanism_configuration_VERSION@";
+    return "1.0.0";
   }
   unsigned getVersionMajor()
   {
-    return @mechanism_configuration_VERSION_MAJOR@;
+    return 1;
   }
   unsigned getVersionMinor()
   {
-    return @mechanism_configuration_VERSION_MINOR@+0;
+    return 0+0;
   }
   unsigned getVersionPatch()
   {
-    return @mechanism_configuration_VERSION_PATCH@+0;
+    return 0+0;
   }
   unsigned getVersionTweak()
   {
-    return @mechanism_configuration_VERSION_TWEAK@+0;
+    return +0;
   }
 
 #ifdef __cplusplus
